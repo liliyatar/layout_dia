@@ -1,0 +1,1 @@
+{"version":3,"sources":["features.scss"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,yBAAyB,EAAA","file":"features.css","sourcesContent":[".features {\n  height: 300px;\n  background-color: #56ccf2;\n}\n"]}
