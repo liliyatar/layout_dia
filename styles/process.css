@@ -29,4 +29,8 @@
     padding-top: 20px;
     margin: 0; }
 
+@media screen and (max-width: 950px) {
+  .process {
+    height: 1140px; } }
+
 /*# sourceMappingURL=process.css.map */

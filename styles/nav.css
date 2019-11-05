@@ -34,4 +34,16 @@
         bottom: -10px;
         left: -10%; }
 
+@media screen and (max-width: 950px) {
+  .nav__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .nav__item {
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+    .nav__item:last-child {
+      margin-bottom: 0; } }
+
 /*# sourceMappingURL=nav.css.map */

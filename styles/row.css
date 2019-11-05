@@ -5,11 +5,21 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 160px; }
+  padding-top: 160px;
+  padding-bottom: 160px;
+  padding-left: 227px;
+  max-width: 1050px; }
   .row__item {
     -webkit-box-flex: 314px;
         -ms-flex: 314px 0 0px;
             flex: 314px 0 0;
     margin: 0 40px; }
+
+@media screen and (max-width: 999px) {
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 
 /*# sourceMappingURL=row.css.map */

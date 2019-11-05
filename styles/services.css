@@ -30,4 +30,11 @@
     -webkit-transform: translate(0, -190px);
             transform: translate(0, -190px); }
 
+@media screen and (max-width: 950px) {
+  .services__heading {
+    left: 260px;
+    font-size: 35px;
+    -webkit-transform: translate(0, -635px);
+            transform: translate(0, -635px); } }
+
 /*# sourceMappingURL=services.css.map */

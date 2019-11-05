@@ -1,13 +1,8 @@
 .process-list {
   position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 760px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 96px 0 0 776px; }
@@ -55,5 +50,9 @@
       color: #03f542; }
     .process-list__number_4 {
       color: #f25656; }
+
+@media screen and (max-width: 950px) {
+  .process-list {
+    margin: 420px 0 0 200px; } }
 
 /*# sourceMappingURL=process-list.css.map */
