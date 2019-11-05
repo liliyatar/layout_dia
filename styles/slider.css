@@ -1,0 +1,52 @@
+.slider {
+  background-color: #fcfcfd;
+  height: 822px;
+  width: 100vw; }
+  .slider__photo {
+    position: absolute;
+    top: 540px;
+    left: 227px;
+    width: 1146px;
+    height: 640px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .slider__networks {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    left: 1437px;
+    right: 144px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    letter-spacing: 2px;
+    line-height: 19px;
+    font-weight: 800;
+    font-size: 13px; }
+  .slider__arrow {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    left: 146px;
+    top: 815px;
+    width: 162px;
+    height: 64px;
+    /* stylelint-disable */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
+    /* stylelint-enable */
+    border-radius: 50px; }
+
+/*# sourceMappingURL=slider.css.map */

@@ -1,0 +1,32 @@
+.process {
+  background-color: #fcfcfd;
+  height: 822px;
+  position: relative; }
+  .process .container {
+    margin-left: 64px; }
+  .process .intro__welcome {
+    position: absolute;
+    left: 163px;
+    width: 362px;
+    top: 161px; }
+  .process__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #253757; }
+  .process .intro__welcome-heading {
+    display: block;
+    padding-left: 37px; }
+  .process .intro__welcome-heading:before {
+    left: 0; }
+  .process__text {
+    color: #334563; }
+  .process__margin {
+    margin: 0;
+    padding-top: 64px; }
+  .process__padding {
+    padding-top: 20px;
+    margin: 0; }
+
+/*# sourceMappingURL=process.css.map */

@@ -1,0 +1,22 @@
+.services {
+  background-color: white;
+  width: 1600px;
+  height: 704px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .services__heading {
+    text-align: center;
+    width: 561px;
+    height: 48px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    color: #253757;
+    -webkit-transform: translate(0, -24px);
+            transform: translate(0, -24px); }
+
+/*# sourceMappingURL=services.css.map */

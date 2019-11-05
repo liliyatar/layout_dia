@@ -1,0 +1,21 @@
+.footer {
+  height: 240px;
+  background-color: #fcfcfd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .footer__nav {
+    color: black; }
+  .footer .nav__link {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #253757; }
+  .footer__mail {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #253757; }
+
+/*# sourceMappingURL=footer.css.map */
