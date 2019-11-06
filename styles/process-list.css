@@ -5,7 +5,8 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 96px 0 0 776px; }
+  margin: 96px 0 0 776px;
+  z-index: 1; }
   .process-list__item {
     width: 240px;
     height: 256px;

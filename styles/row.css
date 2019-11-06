@@ -5,15 +5,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 160px;
-  padding-bottom: 160px;
-  padding-left: 227px;
-  max-width: 1050px; }
+  padding: 160px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .row__item {
-    -webkit-box-flex: 314px;
-        -ms-flex: 314px 0 0px;
-            flex: 314px 0 0;
-    margin: 0 40px; }
+    -ms-flex-preferred-size: 314px;
+        flex-basis: 314px;
+    margin: 0   40px; }
 
 @media screen and (max-width: 999px) {
   .row {

@@ -1,0 +1,44 @@
+.contact {
+  background-color: #fcfcfd;
+  position: relative;
+  -webkit-transform: translate(0, -80px);
+          transform: translate(0, -80px);
+  z-index: -1;
+  padding-top: 256px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .contact__contact_us {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .contact__heading {
+    display: block;
+    position: absolute;
+    left: 1035px;
+    top: 166px; }
+    .contact__heading:before {
+      display: block;
+      content: "";
+      position: absolute;
+      width: 21px;
+      height: 21px;
+      background-image: url(../images/sub-title/sub-title-icon-dark.svg);
+      left: -37px; }
+  .contact .heading {
+    width: 362px;
+    color: #253757;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px; }
+
+/*# sourceMappingURL=contact.css.map */
