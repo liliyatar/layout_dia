@@ -148,8 +148,11 @@
               transform: rotate(0deg);
       right: 20%;
       top: 940px;
+      letter-spacing: 1px;
       font-size: 86%;
-      letter-spacing: 1px; }
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
     .slider .container {
       padding: 0 120px 100px; }
     .slider__arrow {
