@@ -80,6 +80,8 @@
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
+    .header__logo {
+      opacity: 0.5; }
     .header__content {
       text-align: center;
       margin: auto;
@@ -92,30 +94,22 @@
   .header {
     padding-top: 30px;
     min-height: 770px; }
-    .header__top {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
     .header__logo {
-      padding-left: 27px; }
+      opacity: 0.5; }
+    .header__top {
+      padding-left: 50px; }
     .header__heading {
+      text-align: center;
       font-size: 55px;
-      line-height: 40px; }
+      line-height: 50px; }
     .header__content {
       text-align: center;
-      width: 600px;
+      width: 100%;
       padding: 36px 26px 20px 28px; }
     .header__text {
-      text-align: end;
-      width: 550px;
+      text-align: center;
+      padding: 20px;
       font-size: 19px;
-      line-height: 26px;
-      padding-bottom: 20px; } }
+      line-height: 26px; } }
 
 /*# sourceMappingURL=header.css.map */

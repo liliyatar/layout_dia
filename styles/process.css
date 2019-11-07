@@ -33,7 +33,7 @@
   .process .intro__welcome {
     left: 107px; } }
 
-@media screen and (max-width: 950px) {
+@media screen and (min-width: 451px) and (max-width: 950px) {
   .process {
     height: 1500px; }
     .process__heading {

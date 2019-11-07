@@ -47,7 +47,23 @@
     -webkit-transform: translate(-38px);
             transform: translate(-38px); }
 
+@media screen and (max-width: 1024px) {
+  .intro {
+    position: absolute;
+    left: 15%;
+    top: 800px; } }
+
 @media screen and (max-width: 950px) {
+  .welcome-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
   .intro {
     left: 80px;
     top: 820px; }
@@ -63,11 +79,11 @@
     .intro__welcome-heading {
       font-size: 15px;
       line-height: 15px;
-      padding-bottom: 10px; }
+      padding-bottom: 40px; }
     .intro__welcome-text {
-      width: 370px;
-      font-size: 15px;
+      font-size: 20px;
       line-height: 20px;
-      text-align: justify; } }
+      text-align: justify;
+      width: 100%; } }
 
 /*# sourceMappingURL=intro.css.map */

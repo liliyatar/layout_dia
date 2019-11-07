@@ -23,7 +23,6 @@
 
 @media screen and (max-width: 950px) {
   .container {
-    padding-left: 27px;
     padding-right: 27px; }
     .container__blocks {
       margin-left: 24px;

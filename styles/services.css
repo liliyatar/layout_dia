@@ -29,7 +29,7 @@
     -webkit-transform: translate(0, -190px);
             transform: translate(0, -190px); }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1024px) {
   .services {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -46,6 +46,13 @@
             align-items: center;
     text-align: center; }
     .services__heading {
-      text-align: center; } }
+      -webkit-transform: translate(0, -195%);
+              transform: translate(0, -195%); } }
+
+@media screen and (min-width: 451px) and (max-width: 950px) {
+  .services__heading {
+    font-size: 40px;
+    -webkit-transform: translate(0, -120%);
+            transform: translate(0, -120%); } }
 
 /*# sourceMappingURL=services.css.map */

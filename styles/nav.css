@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 950px) {
   .nav {
-    margin-left: 100px; }
+    margin-left: 20px; }
     .nav__list {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
