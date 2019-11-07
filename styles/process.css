@@ -29,8 +29,21 @@
     padding-top: 20px;
     margin: 0; }
 
+@media screen and (max-width: 1440px) {
+  .process .intro__welcome {
+    left: 107px; } }
+
 @media screen and (max-width: 950px) {
   .process {
-    height: 1140px; } }
+    height: 1500px; }
+    .process__heading {
+      font-size: 30px; }
+    .process__text {
+      width: 100%;
+      font-size: 20px;
+      text-align: justify; }
+    .process .intro__welcome {
+      top: 100px;
+      left: 33px; } }
 
 /*# sourceMappingURL=process.css.map */

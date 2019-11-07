@@ -14,11 +14,28 @@
     border-bottom: 1px solid #e1e1e1;
     font-weight: bold;
     font-size: 14px;
-    line-height: 1.5;
-    color: #152032; }
+    line-height: 22px;
+    color: #152032;
+    background-color: #fcfcfd; }
     .form__input:last-of-type {
       margin-bottom: 105px; }
   .form .send-form__button {
     margin: 0; }
+    .form .send-form__button:hover {
+      background-color: lightgreen; }
+
+@media screen and (max-width: 1024px) {
+  .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .form .send-form__button {
+      margin-bottom: 150px; } }
 
 /*# sourceMappingURL=send_form.css.map */

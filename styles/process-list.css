@@ -52,8 +52,20 @@
     .process-list__number_4 {
       color: #f25656; }
 
+@media screen and (max-width: 1024px) {
+  .process-list {
+    margin: 100px 0 0 570px; }
+    .process-list__item {
+      margin: 20px 58px 0 0; }
+      .process-list__item_left {
+        top: 0; } }
+
 @media screen and (max-width: 950px) {
   .process-list {
-    margin: 420px 0 0 200px; } }
+    margin: 500px 0 0 100px; }
+    .process-list__item {
+      margin: 20px 58px 0 0; }
+      .process-list__item_left {
+        top: 0; } }
 
 /*# sourceMappingURL=process-list.css.map */

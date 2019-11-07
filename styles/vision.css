@@ -1,8 +1,6 @@
 .vision {
   position: relative;
-  background-color: #fcfcfd;
-  -webkit-transform: translate(0, -60px);
-          transform: translate(0, -60px); }
+  background-color: #fcfcfd; }
   .vision__heading {
     font-weight: 900;
     font-size: 48px;
@@ -11,7 +9,7 @@
     width: 561px;
     display: block;
     margin: auto;
-    padding-top: 320px; }
+    padding-top: 250px; }
   .vision__text {
     padding-top: 57px;
     font-weight: 600;
@@ -65,7 +63,7 @@
     height: 56px;
     border-color: #80e9a0;
     opacity: 0.5;
-    z-index: -1; }
+    z-index: 1; }
   .vision .two-decor {
     position: absolute;
     left: 446px;
@@ -73,7 +71,8 @@
     width: 45px;
     height: 18px;
     opacity: 0.5;
-    border: #fcc304 solid 3px; }
+    border: #fcc304 solid 3px;
+    z-index: 1; }
   .vision .three-decor {
     position: absolute;
     left: 233px;
@@ -81,7 +80,8 @@
     width: 86px;
     height: 34px;
     opacity: 0.5;
-    border: #f8b6b7 solid 3px; }
+    border: #f8b6b7 solid 3px;
+    z-index: 1; }
   .vision .four-decor {
     position: absolute;
     left: 82px;
@@ -89,7 +89,8 @@
     width: 67px;
     height: 27px;
     opacity: 0.5;
-    border: #b1e7f8 solid 3px; }
+    border: #b1e7f8 solid 3px;
+    z-index: 1; }
   .vision .five-decor {
     position: absolute;
     width: 93px;
@@ -97,7 +98,8 @@
     left: 131px;
     top: 666px;
     opacity: 0.5;
-    border: #dd82fd solid 3px; }
+    border: #dd82fd solid 3px;
+    z-index: 1; }
   .vision .six-decor {
     position: absolute;
     width: 45px;
@@ -106,7 +108,7 @@
     top: 613px;
     opacity: 0.5;
     border: #fce185 solid 3px;
-    z-index: -1; }
+    z-index: 1; }
   .vision .seven-decor {
     position: absolute;
     width: 45px;
@@ -114,7 +116,8 @@
     left: 1012px;
     top: 662px;
     opacity: 0.5;
-    border: #e193fd solid 3px; }
+    border: #e193fd solid 3px;
+    z-index: 1; }
   .vision .eight-decor {
     position: absolute;
     width: 154px;
@@ -122,7 +125,8 @@
     left: 1337px;
     top: 561px;
     opacity: 0.5;
-    border: #8bd4f8 solid 3px; }
+    border: #8bd4f8 solid 3px;
+    z-index: 1; }
   .vision .nine-decor {
     position: absolute;
     width: 86px;
@@ -130,7 +134,8 @@
     left: 1219px;
     top: 533px;
     opacity: 0.5;
-    border: #f7b1b1 solid 3px; }
+    border: #f7b1b1 solid 3px;
+    z-index: 1; }
   .vision .ten-decor {
     position: absolute;
     width: 143px;
@@ -155,5 +160,16 @@
     top: 425px;
     opacity: 0.5;
     border: #fde596 solid 3px; }
+
+@media screen and (max-width: 950px) {
+  .vision__item-right {
+    display: none; }
+  .vision__heading {
+    width: 100%;
+    font-size: 39px;
+    text-align: center; }
+  .vision__text {
+    width: 400px;
+    font-size: 20px; } }
 
 /*# sourceMappingURL=vision.css.map */

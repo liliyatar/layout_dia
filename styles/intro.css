@@ -47,16 +47,17 @@
     -webkit-transform: translate(-38px);
             transform: translate(-38px); }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 950px) {
   .intro {
-    left: 250px;
-    top: 770px; }
+    left: 80px;
+    top: 820px; }
     .intro__text {
+      width: 250px;
       font-size: 17px;
       line-height: 20px; }
     .intro__welcome {
       position: absolute;
-      top: 150px;
+      top: 200px;
       left: 20px;
       width: 600px; }
     .intro__welcome-heading {
@@ -64,7 +65,9 @@
       line-height: 15px;
       padding-bottom: 10px; }
     .intro__welcome-text {
-      font-size: 20px;
-      line-height: 25px; } }
+      width: 370px;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: justify; } }
 
 /*# sourceMappingURL=intro.css.map */
