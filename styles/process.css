@@ -1,49 +1,53 @@
 .process {
+  max-width: 1600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 160px 14.18% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #fcfcfd;
-  height: 822px;
-  position: relative; }
-  .process .container {
-    margin-left: 64px; }
-  .process .intro__welcome {
-    position: absolute;
-    left: 163px;
-    width: 362px;
-    top: 161px; }
-  .process__heading {
-    font-style: normal;
+  margin: 0 auto; }
+  .process__article {
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
+  .process__title {
+    margin-bottom: 19px; }
+  .process__label {
     font-weight: 900;
     font-size: 32px;
+    color: #253757;
     line-height: 45px;
-    color: #253757; }
-  .process .intro__welcome-heading {
-    display: block;
-    padding-left: 37px; }
-  .process .intro__welcome-heading:before {
-    left: 0; }
-  .process__text {
-    color: #334563; }
-  .process__margin {
-    margin: 0;
-    padding-top: 64px; }
-  .process__padding {
-    padding-top: 20px;
-    margin: 0; }
+    margin-bottom: 64px; }
+  .process__paragraph {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #334563;
+    mix-blend-mode: normal; }
 
-@media screen and (max-width: 1440px) {
-  .process .intro__welcome {
-    left: 107px; } }
-
-@media screen and (min-width: 451px) and (max-width: 950px) {
+@media (min-width: 1921px) {
   .process {
-    height: 1500px; }
-    .process__heading {
-      font-size: 30px; }
-    .process__text {
-      width: 100%;
-      font-size: 20px;
-      text-align: justify; }
-    .process .intro__welcome {
-      top: 100px;
-      left: 33px; } }
+    padding: 160px 227px 0; } }
+
+@media (max-width: 1150px) {
+  .process__article {
+    margin-right: 20px; } }
+
+@media (max-width: 1130px) {
+  .process {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 14.18%; }
+    .process__article {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=process.css.map */

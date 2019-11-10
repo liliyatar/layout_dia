@@ -1,115 +1,152 @@
 .header {
-  position: relative;
-  min-height: 848px;
-  padding-top: 48px;
+  height: 848px;
+  max-width: 1600px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: linear-gradient(-65deg, #fcfcfd 25%, #56ccf2 25%); }
+  margin: 0 auto;
+  background: linear-gradient(-65deg, #fcfcfd 22.7%, #56ccf2 23%); }
   .header__top {
+    padding: 48px 26% 0 14%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  .header__heading {
+  .header__logo {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    color: white; }
+  .header__bottom {
+    padding: 76px 20% 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .header__title {
+    color: white;
     font-weight: 900;
     font-size: 64px;
-    line-height: 96px; }
-  .header__content {
-    margin: 0;
-    color: white;
-    width: 754px;
-    padding: 76px 86px 80px 98px; }
-  .header__text {
+    line-height: 96px;
+    margin-bottom: 22px; }
+  .header__paragraph {
+    font-weight: normal;
     font-size: 24px;
-    line-height: 36px;
-    padding-bottom: 42px; }
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 42px;
+    white-space: nowrap; }
   .header__button {
+    width: 226px;
+    height: 56px;
     text-align: center;
     letter-spacing: 1px;
-    line-height: 24px;
+    line-height: 1.5;
     font-weight: bold;
+    font-size: 16px;
     background: white;
     border-radius: 64px;
-    padding: 16px 65px;
     text-decoration: none;
-    color: #253757; }
+    color: #253757;
+    border: 0;
+    cursor: pointer; }
     .header__button:hover {
       background-color: #ffff57;
       color: sienna; }
+  .header__hire-us {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    text-decoration: none; }
+    .header__hire-us::after {
+      content: "";
+      height: 4px;
+      width: 120%;
+      background-color: #fcc304;
+      border-radius: 32px;
+      position: absolute;
+      bottom: -10px;
+      left: -10%; }
 
-@media screen and (min-width: 1025px) and (max-width: 1398px) {
-  .header {
-    /* stylelint-disable */
-    background-image: -webkit-gradient(linear, left bottom, right top, from(#56ccf2), color-stop(#5ac5fc), color-stop(#6cbdff), color-stop(#88b2ff), to(#a6a6ff));
-    background-image: linear-gradient(to right top, #56ccf2, #5ac5fc, #6cbdff, #88b2ff, #a6a6ff);
-    /* stylelint-enable */ }
-    .header__top {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-    .header__content {
-      text-align: center;
-      margin: auto;
-      padding: 46px 26px 20px 28px; }
-    .header__heading {
-      text-align: start;
-      font-size: 65px;
-      line-height: 40px; } }
+@media (min-width: 1921px) {
+  .header__top {
+    padding: 48px 227px 0; } }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1250px) {
+  .header__title {
+    white-space: nowrap; } }
+
+@media (max-width: 1150px) {
+  .header__top {
+    padding: 48px 14.18% 0; } }
+
+@media (max-width: 1130px) {
+  .header__title {
+    white-space: nowrap; }
+  .header__paragraph {
+    width: 90%;
+    white-space: normal; }
+  .header__bottom {
+    padding-top: 39px; } }
+
+@media (max-width: 950px) {
+  .header__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .header__logo {
+    margin-bottom: 40px; }
+  .header__title {
+    font-size: 32px;
+    color: #253757; }
+  .header__paragraph {
+    color: #253757; } }
+
+@media (max-width: 700px) {
   .header {
-    /* stylelint-disable */
-    background-image: -webkit-gradient(linear, left bottom, right top, from(#56ccf2), color-stop(#5ac5fc), color-stop(#6cbdff), color-stop(#88b2ff), to(#a6a6ff));
-    background-image: linear-gradient(to right top, #56ccf2, #5ac5fc, #6cbdff, #88b2ff, #a6a6ff);
-    /* stylelint-enable */ }
-    .header__top {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
+    background-color: #56ccf2; }
+    .header__paragraph {
+      font-size: 20px; }
+    .header__button {
+      background-color: #152032;
+      color: white; }
+      .header__button:hover {
+        background-color: #ffff57; } }
+
+@media (max-width: 600px) {
+  .header__title {
+    white-space: nowrap; } }
+
+@media (max-width: 500px) {
+  .header {
+    height: 750px; }
     .header__logo {
-      opacity: 0.5; }
-    .header__content {
-      text-align: center;
-      margin: auto;
-      padding: 46px 26px 20px 28px; }
-    .header__heading {
-      text-align: start;
-      font-size: 65px; } }
+      margin-bottom: 15px; }
+    .header__title {
+      white-space: normal;
+      line-height: 60px; } }
 
-@media screen and (min-width: 451px) and (max-width: 950px) {
+@media (max-width: 360px) {
   .header {
-    padding-top: 30px;
-    min-height: 770px; }
+    height: 790px; }
     .header__logo {
-      opacity: 0.5; }
-    .header__top {
-      padding-left: 50px; }
-    .header__heading {
-      text-align: center;
-      font-size: 55px;
-      line-height: 50px; }
-    .header__content {
-      text-align: center;
-      width: 100%;
-      padding: 36px 26px 20px 28px; }
-    .header__text {
-      text-align: center;
-      padding: 20px;
-      font-size: 19px;
-      line-height: 26px; } }
+      margin-bottom: 0; }
+    .header__title {
+      width: -webkit-min-content;
+      width: -moz-min-content;
+      width: min-content;
+      margin: 0 auto 20px;
+      line-height: 60px; }
+    .header__button {
+      margin: 0 auto;
+      width: 163px; } }
 
 /*# sourceMappingURL=header.css.map */

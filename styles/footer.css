@@ -1,65 +1,44 @@
 .footer {
-  background-color: #fcfcfd;
+  max-width: 1600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 68px 14.18% 83px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 136px 228px 83px 227px; }
-  .footer__nav {
-    color: black; }
-  .footer__design {
-    font-weight: bold;
-    color: #253757; }
-  .footer .nav__link {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #253757; }
-    .footer .nav__link:hover {
-      color: darkgoldenrod; }
-  .footer__mail {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .footer__container {
+    width: 1600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .footer__info {
     text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
     color: #253757; }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 1921px) {
   .footer {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-    .footer__design {
-      padding-bottom: 20px; }
-    .footer__nav {
-      margin: auto; }
-      .footer__nav .nav__list {
-        display: block;
-        text-align: center; } }
+    padding: 68px 227px 83px; } }
 
-@media screen and (max-width: 950px) {
+@media (max-width: 950px) {
   .footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-    .footer__nav {
-      color: black;
-      text-align: center; }
-    .footer .nav__link {
-      font-size: 13px;
-      line-height: 10px; } }
+    padding: 34px 14.18% 41px; }
+    .footer__container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
 
 /*# sourceMappingURL=footer.css.map */

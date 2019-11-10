@@ -1,0 +1,19 @@
+.bg-header {
+  /* stylelint-disable */
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #56ccf2), color-stop(50%, #fcfcfd));
+  background: linear-gradient(90deg, #56ccf2 50%, #fcfcfd 50%);
+  /* stylelint-enable */ }
+
+.bg-services,
+.bg-testimonials {
+  background-color: #fff; }
+
+.bg-process,
+.bg-apply,
+.bg-contact {
+  background-color: #fcfcfd; }
+
+.bg-features {
+  background-color: #56ccf2; }
+
+/*# sourceMappingURL=background_sections.css.map */

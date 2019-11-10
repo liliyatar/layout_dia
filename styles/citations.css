@@ -1,0 +1,78 @@
+.citations {
+  display: grid;
+  grid-template-columns: repeat(3, 314px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 78px;
+     -moz-column-gap: 78px;
+          column-gap: 78px; }
+  .citations__item {
+    background: #fefefe;
+    -webkit-box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+            box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 36px 32px 58px; }
+  .citations__img {
+    width: 126px;
+    height: 196px; }
+  .citations__paragraph {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #253757; }
+  .citations__line {
+    width: 64px;
+    height: 2px;
+    border-radius: 25%;
+    margin: 31px 0; }
+    .citations__line--blue {
+      background-color: #56ccf2; }
+    .citations__line--orange {
+      background-color: #fcc304; }
+    .citations__line--red {
+      background-color: #f25656; }
+  .citations__name {
+    font-weight: bold;
+    font-size: 12.6px;
+    line-height: 1.5; }
+  .citations__position {
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 1.5;
+    letter-spacing: 2px; }
+    .citations__position--blue {
+      color: #56ccf2; }
+    .citations__position--orange {
+      color: #fcc304; }
+    .citations__position--red {
+      color: #f25656; }
+
+@media (max-width: 1130px) {
+  .citations {
+    grid-template-columns: repeat(2, 314px);
+    gap: 78px; }
+    .citations__item:last-child {
+      margin-left: 197px;
+      width: 314px; } }
+
+@media (max-width: 950px) {
+  .citations {
+    grid-template-columns: 314px; }
+    .citations__item:last-child {
+      margin-left: 0;
+      width: 100%; } }
+
+/*# sourceMappingURL=citations.css.map */
